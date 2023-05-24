@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dominant-color: #7aacc3;
+  --accent-color: #382b47;
+  --complementary-color: #5d1dc5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dominant-color: #382b47;
+    --accent-color: #7aacc3;
+    --complementary-color: #5d1dc5;
+  }
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(122, 172, 195, 1) 85%, rgba(56, 43, 71, 1) 85%);
+}
